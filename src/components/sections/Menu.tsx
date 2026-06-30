@@ -6,8 +6,8 @@ import { MENU_CATEGORIES } from "@/constants";
 
 function formatPrice(price: number): string {
   return price % 1 === 0
-    ? `₺${price}`
-    : `₺${price.toFixed(2)}`;
+    ? `${price} ₺`
+    : `${price.toFixed(2)} ₺`;
 }
 
 export default function Menu() {

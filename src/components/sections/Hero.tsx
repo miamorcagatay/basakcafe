@@ -29,7 +29,7 @@ export default function Hero() {
               className="inline-flex items-center gap-2 bg-green-200 text-green-800 text-sm font-semibold px-4 py-1.5 rounded-full mb-6"
             >
               <Star size={14} fill="currentColor" />
-              {BUSINESS.rating}/5 Puan · Denizli&apos;nin Gözde Kafe&apos;si
+              {BUSINESS.rating}/5 Puan · Denizli&apos;nin Gözde Kafesi
             </motion.div>
 
             <motion.h1
@@ -199,7 +199,7 @@ export default function Hero() {
             <motion.div
               animate={{ y: [0, -8, 0] }}
               transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-              className="absolute -top-4 -right-4 bg-green-700 text-white text-xs font-bold px-3 py-2 rounded-2xl shadow-lg"
+              className="absolute -top-4 -right-4 bg-green-700 text-white text-sm font-bold px-3 py-2 rounded-2xl shadow-lg"
             >
               Çocuk Parkı Mevcut 🌳
             </motion.div>
